@@ -12,14 +12,12 @@ public class Main {
         integers.add(20);
         integers.add(22);
         System.out.println(integers);
-        for (int i = 0; i<integers.size();i++){
-            if (integers.get(i) % 3 == 0){
-             integers.remove(i);
-             i--;
+        for (int i = 0; i < integers.size(); i++) {
+            if (integers.get(i) % 3 == 0) {
+                integers.remove(i);
+                i--;
             }
         }
         System.out.println(integers);
-
     }
-
 }
