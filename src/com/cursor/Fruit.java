@@ -15,12 +15,15 @@ public class Fruit {
         fruit.add("Pineapple");
         fruit.add("Lemon");
         fruit.add("Chubakabra");
-        if (fruit.contains("Orange")) {
-            System.out.println(fruit);
-            fruit.set(0, "Grapefruit");
-            System.out.println(fruit);
-        } else {
-            System.out.println("That value not present!");
+        System.out.println(fruit);
+        for (int i = 0; i < fruit.size(); i++) {
+            if (fruit.get(i).equals("Orange")) {
+                fruit.set(i, "Grapefruit");
+                System.out.println(fruit);
+                break;
+            } else {
+                System.out.println("That value not present!");
+            }
         }
     }
 }

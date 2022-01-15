@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayData {
 
-    public static void main(String[] args) {
+    public static double arrayData () {
         ArrayList<Double> data = new ArrayList<>();
         ArrayList<Double> data2 = new ArrayList<>();
         data.add(0, 5.2);
@@ -30,6 +30,7 @@ public class ArrayData {
             }
         }
         System.out.println("There are " + similarElement + " similar elements");
+        return similarElement;
     }
 }
 
