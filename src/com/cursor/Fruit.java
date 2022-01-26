@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Fruit {
 
     public static void main(String[] args) {
+
         ArrayList<String> fruit = new ArrayList<>();
         fruit.add("Orange");
         fruit.add("Avocado");
@@ -15,6 +16,7 @@ public class Fruit {
         fruit.add("Pineapple");
         fruit.add("Lemon");
         fruit.add("Chubakabra");
+
         System.out.println(fruit);
         for (int i = 0; i < fruit.size(); i++) {
             if (fruit.get(i).equals("Orange")) {

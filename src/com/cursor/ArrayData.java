@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class ArrayData {
 
-    public static double arrayData () {
+    public static double arrayData() {
+
         ArrayList<Double> data = new ArrayList<>();
         ArrayList<Double> data2 = new ArrayList<>();
         data.add(0, 5.2);
@@ -19,8 +20,10 @@ public class ArrayData {
         data2.add(3, 9.7);
         data2.add(4, 7.5);
         data2.add(5, 13.5);
+
         System.out.println(data);
         System.out.println(data2);
+
         int similarElement = 0;
         for (double i : data) {
             for (double j : data2) {
@@ -33,6 +36,3 @@ public class ArrayData {
         return similarElement;
     }
 }
-
-
-
