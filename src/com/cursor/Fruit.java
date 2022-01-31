@@ -7,7 +7,7 @@ public class Fruit {
     public static void main(String[] args) {
 
         ArrayList<String> fruit = new ArrayList<>();
-        fruit.add("Orange");
+        fruit.add("Nuts");
         fruit.add("Avocado");
         fruit.add("Banana");
         fruit.add("Apple");
@@ -22,9 +22,9 @@ public class Fruit {
             if (fruit.get(i).equals("Orange")) {
                 fruit.set(i, "Grapefruit");
                 System.out.println(fruit);
-                break;
             } else {
                 System.out.println("That value not present!");
+                break;
             }
         }
     }
